@@ -1,3 +1,4 @@
+#SIVA
 all <- read.csv(file.choose()) #open ThreeClusters.csv
 head(all)
 qplot(data=all, x=V1, y=V2) # kind of Obvious!!!
